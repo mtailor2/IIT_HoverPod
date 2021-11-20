@@ -4,6 +4,6 @@
 cmake_minimum_required (VERSION 3.8)
 
 # Add source to this project's executable.
-add_executable (IIT_HoverPod "main.cpp" "main.h")
+add_executable (IIT_HoverPod "main.cpp" "main.h" "../include/IMU.cpp" "../include/IMU.h")
 
 # TODO: Add tests and install targets if needed.

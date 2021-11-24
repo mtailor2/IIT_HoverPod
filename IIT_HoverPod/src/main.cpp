@@ -1,14 +1,13 @@
 ﻿// IIT_HoverPod.cpp : Defines the entry point for the application.
-//
 
-#include "main.h"
-#include "../include/IMU.h"
+#include "../include/main.h"
 
 using namespace std;
 
-int main()
+int main(int argc, char* argv[])
 {
 	cout << "Hello CMake." << endl;
-	//connectToIMU();
+	//connectToIMU("COM7", 115200);
+
 	return 0;
 }
